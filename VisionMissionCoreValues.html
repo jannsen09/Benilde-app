@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" >
+<style>
+body
+ 
+ 
+ {
+ background: url('5.jpg') center no-repeat;
+ background-size: cover;
+ }
+ .img-responsive{
+ width:100%;
+ height:auto;
+ }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="CoursesOffered.html">Courses Offered</a>
+  <a href="VisionMissionCoreValues.html">Vision, Mission & Core Values</a>
+  <a href="RequirementforEnrollment.html">Requirements For Enrollment</a>
+  <a href="About.html">About</a>
+</div>
+
+<div id="main">
+ <br>
+ <br>
+  <br>
+
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ <br>
+ <br>
+  <p><h2><font face="TIMES NEW ROMAN"><p style="color:#007108";>VISION</font></font></h2><p/>
+<p><strong>St. Benilde Center for Global Competence inc. envisions herself to be a center of excellence both for degree programs and business technology education which values service through higher quality education and enriched learning environment, producing globally competent  and God-fearing graduates and industry leadert who are value driven, resource oriented and humane individuals who will promote and protect the welfare of humanity.</strong> </p>
+<hr>
+
+<p><h2><font face="TIMES NEW ROMAN"<p style="color:#007108";>MISSION</font></font></h2><p/>
+<p><strong>As a leading institution and center of excellence, St. Benilde aims to provide: A globally competitive technical, vocationalvand degree programs which will produce graduates and industry leaders who are God-fearing, humane, Selfless individuals ready to serve, protect and promote the welfare of humanity, Produce highly competent, productive and competitive graduates attuned with latest innovations anchored of the country's development goals.</strong></p>
+<hr>
+<p><h2><font face="TIMES NEW ROMAN"<p style="color:#007108";>CORE VALUES</font></font></h2><p/>
+<p> <strong>St. Benilde Center for Global Competence Inc. believes in the following principles essential to the success of every person and organization. </strong></p>
+<p> <strong>St. Benilde's core values are:</strong></p>
+<ul> 
+<strong>
+<li> Competence </li>
+<li> Discipline </li>
+<li> Initiative </li>
+<li> Service </li>
+<li> Teamwork </li>
+</strong></ul>
+<h4><font face="TIMES NEW ROMAN"><p style="color:#000000";>Accredited By:</font></font></h4><p/>
+<img src="us.png" style="width:10%">
+
+<img src="tesda.png" style="width:10%">
+
+<img src="deped.png" style="width:10%">
+
+<img src="ched.png" style="width:10%">
+
+
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+     
+</body>
+</html>
